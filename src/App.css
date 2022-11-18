@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Gemunu+Libre&family=Signika+Negative:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.money-img {
+  width: 220px;
+}
+
+.equal {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.currency {
+  padding: 29px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  appearance: none;
+}
+
+.currency input {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
+
+select:focus,
+input:focus {
+  outline: none;
+}
